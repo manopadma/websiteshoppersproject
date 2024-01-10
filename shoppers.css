@@ -2,16 +2,15 @@
 .dropdown_c {
   position: relative;
   margin: 20px;
-}
-
-.selected span {
   display: flex;
-  background: rgba(0, 0, 0, 0.2);
-  width: 200px;
-  border-radius: 5px;
-  color: #131313;
 }
 
+.ul {
+  display: flex;
+}
+.ul li {
+  display: flex;
+}
 .selected span {
   cursor: pointer;
   display: flex;
@@ -67,11 +66,12 @@
   width: 50%;
 }
 .banner-btn {
+  border-radius: 8px;
   border: none;
-  height: 38px;
-  width: 130px;
+  height: 28px;
+  width: 138px;
   text-align: center;
-  background-color: blueviolet;
+  background-color: rgb(170, 136, 209);
   color: white;
   font-size: 15px;
   margin-top: 31px;
@@ -109,42 +109,50 @@
   left: 60%;
   font-size: 40px;
   font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .innertxt {
-  font-size: 20px;
-  color: rgb(75, 65, 65);
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
+  color: rgba(151, 146, 146, 0.974);
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
 /* second 3 card */
 
-.site-block{
-    display: flex;
-    justify-content: space-around;
-    background-color: white ;
-    border-bottom: 1px solid rgba(211, 199, 199, 0.637);
-    padding-bottom: 40px;
+.site-block {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  border-bottom: 1px solid rgba(172, 164, 164, 0.637);
+  padding-bottom: 36px;
+  padding-top: 50px;
 }
-.site-text1{
-    display: flex;
-    gap: 3px;
+.site-text1 {
+  display: flex;
+  gap: 22px;
 }
 .site-text2 {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 22px;
 }
 .site-text3 {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 22px;
 }
-.fa fa-refresh{
-    position: relative;
-    gap: 30px;
+.fa fa-refresh {
+  position: relative;
+  gap: 30px;
 }
-.fa fa-truck{
-    position: relative;
-        gap: 30px;
-    }
-.fa fa-question{
-    position: relative;
-        gap: 30px;
+.fa fa-truck {
+  position: relative;
+  gap: 30px;
+}
+.fa fa-question {
+  position: relative;
+  gap: 30px;
 }

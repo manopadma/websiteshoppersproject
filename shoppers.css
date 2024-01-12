@@ -76,6 +76,7 @@
   font-size: 15px;
   margin-top: 31px;
   padding-top: 13px;
+  align-items: center;
 }
 
 .main-heading {
@@ -130,7 +131,7 @@ p {
   background-color: white;
   border-bottom: 1px solid rgba(172, 164, 164, 0.637);
   padding-bottom: 36px;
-  padding-top: 50px;
+  padding-top: 125px;
 }
 .site-text1 {
   display: flex;
@@ -151,6 +152,7 @@ p {
 .fa fa-truck {
   position: relative;
   gap: 30px;
+  padding-top: 5px;
 }
 .fa fa-question {
   position: relative;
@@ -158,30 +160,38 @@ p {
 }
 /* 3rd block */
 
-.imgBlock-Main{
-    display: flex;
-    gap: 8px;
-    justify-content: space-around;
+.imgBlock-Main {
+  display: flex;
+  gap: 8px;
+  justify-content: space-around;
+  padding-top: 100px;
 }
 
-p {
-    position: relative;
-    bottom: 75px;
-    left: 19px;
-    
+.heading1 {
+  position: relative;
+  bottom: 87px;
+  left: 19px;
+  color: black;
+  font-size: 15px;
 }
-h3{
-    position: relative;
-    bottom: 75px;
-    left: 19px;
+.heading2 {
+  position: relative;
+  bottom: 114px;
+  left: 19px;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
 }
-.img1{
-    transition: 0.3s;
+.img1 {
+  transition: 0.3s;
 }
 .img:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
-
+.DisImgtxt {
+  display: flex;
+  justify-content: space-evenly;
+}
 /* 4th block */
 .card1 {
   height: 350px;

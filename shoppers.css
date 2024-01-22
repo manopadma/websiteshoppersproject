@@ -76,7 +76,6 @@
   font-size: 15px;
   margin-top: 31px;
   padding-top: 13px;
-  align-items: center;
 }
 
 .main-heading {
@@ -120,7 +119,7 @@
 }
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /* second 3 card */
@@ -162,24 +161,24 @@ p {
 
 .imgBlock-Main {
   display: flex;
-  gap: 8px;
-  justify-content: space-around;
-  padding-top: 100px;
+  gap: 1px;
+  justify-content: space-evenly;
+  padding-top: 59px;
 }
 
 .heading1 {
   position: relative;
-  bottom: 87px;
+  bottom: 99px;
   left: 19px;
   color: black;
   font-size: 15px;
 }
 .heading2 {
   position: relative;
-  bottom: 114px;
+  bottom: 135px;
   left: 19px;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 39px;
   color: white;
 }
 .img1 {
@@ -188,11 +187,35 @@ p {
 .img:hover {
   transform: scale(1.5);
 }
+
+/* 4th block */
 .DisImgtxt {
   display: flex;
-  justify-content: space-evenly;
 }
-/* 4th block */
+.banner-btn1 {
+  border-radius: 8px;
+  border: none;
+  height: 26px;
+  width: 134px;
+  text-align: center;
+  background-color: rgb(170, 136, 209);
+  color: white;
+  font-size: 15px;
+  margin-top: 31px;
+  margin-left: 242px;
+  padding-top: 13px;
+}
+
+.discountMain {
+  justify-content: center;
+}
+.discountSecondBlock {
+  display: flex;
+}
+
+.discountMainBlock {
+  padding-top: 30px;
+}
 .card1 {
   height: 350px;
   width: 300px;
@@ -217,6 +240,12 @@ p {
   justify-content: space-around;
 }
 /* footer */
+.navigation {
+  display: flex;
+}
+.footerMainBlock {
+  display: flex;
+}
 .inner-navigators {
   display: flex;
   flex-direction: column;
@@ -230,7 +259,7 @@ p {
   margin: auto;
 }
 
-/* .footerMain {
+.footerMain {
   display: flex;
 }
 .navFooter {
@@ -239,15 +268,14 @@ p {
 .address {
   display: flex;
 }
-.searchbox-wrap{
-  display     : flex; 
-  width       : 500px;  
-  margin-top  : 8%;
-  margin-left : auto;
+.searchbox-wrap {
+  display: flex;
+  width: 500px;
+  margin-top: 8%;
+  margin-left: auto;
   margin-right: auto;
 
-  
-  input{
+  /* input{
      flex                             : 1;
      padding                          : 30px 20px;
      font-size                        : 1.1em;
@@ -298,5 +326,5 @@ p {
       }
       
     }
-  }
-} */
+  } */
+}
